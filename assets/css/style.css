@@ -22,7 +22,8 @@ header {
     background-color: #A6C4D0;
     color: #fff;
     text-align: left;
-    padding: 5px 0;
+    padding: 5px 5px 5px;
+    max-width: fit-content;
 }
 
 header img {
@@ -62,33 +63,42 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* aside styling */
 aside {
     display: block;
+    position: absolute;
     padding-top: 15px;
-    margin-left: 150px;
-    max-width: 150px;
+    margin-left: 50px;
+    max-width: 100px;
     text-align: right;
-    font-size: 18px;
-    
+   
 }
 
-aside h2 {
-    color: #5B7F99;
-    
-}
 
 aside img {
     width: 200px;
     height: 200px;
     border-radius: 30px;
+    align-items: left;
 }
 
-/* about me styling */
+/* content body styling */
+
 .content {
     display: inline-block;
+    position: relative;
     flex: 70%;
-    margin-left: 400px;
+    margin-left: 300px;
+    padding-top: 50px;
     padding-bottom: 25px;
+}
+
+.content h2 {
+    color:#5B7F99
+}
+
+.card {
+    padding: 10px;
 }
 
 .card img {
@@ -106,12 +116,6 @@ aside img {
     flex-wrap: wrap;
 }
 
-/* portfolio button styling */
-#horiseon button {
-    display: inline-block;
-    width: 30%;
-}
-
 button {
     cursor: pointer;
     transition: 1s;
@@ -122,9 +126,14 @@ button:hover {
     background-color: #5B7F99;
 }
 
+div {
+    padding: 15px;
+}
+
 /* contact me styling */
+
 #contact-me ul li {
-    display: inline-block;
+    display: list-item;
     background-color: white;
     color: #5B7F99;
         
@@ -136,16 +145,22 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+    .content {
+        width: 50%;
+      }
+  }
+  
+   @media screen and (max-width: 768px) {
+    .content {
+        width: 100%;
+      }
 
   }
   
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-
-  }
-  
-  /* Small smartphones - image placeholders change color */
   @media screen and (max-width: 576px) {
-
+    .content {
+        width: 150%;
+    }
+ 
   }
   
