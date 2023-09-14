@@ -15,7 +15,7 @@
         <nav>
             <ul>
                 <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work-example">Portfolio</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact-me">Contact Me</a></li>
             </ul>
         </nav>
@@ -23,60 +23,92 @@
         </header>
 
         <!-- about me section -->
-        <section class="container-1">
-        <section id="about-me">
-            <h2> About Me </h2>
-            <p>
+
+        <aside id="about-me">
+           <h2>About Me</h2>
+           <img src="/assets/images/IMG_0207.JPG">
+        
+        </aside>
+
+        <section class="content">
+                <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
                 deserunt mollit anim id est laborum."
-            </p>
+                </p>
+                   
         </section>
-        </section>
+
+        <!-- portfolio -->
+
+        <aside id="portfolio">
+           <h2>Portfolio</h2>
+        </aside>
 
         <!-- live link work example -->
-        <section id="work-example">
 
-            <h1>
-                Portfolio
-            </h1>
-            <button id="live-app">
-            <a href="https://ellacheu.github.io/Code-Refractor/"><img src="./assets/images/Horiseon - Social Solution Services.jpg" alt="live project - horiseon"></a>
-            </button>
-            <h3>Horiseon Code Refractor</h3>
-
+        <section class="content">
+            <section id="work-example">
+                <button id="horiseon">
+                <a href="https://ellacheu.github.io/Code-Refractor/"><img src="./assets/images/Horiseon - Social Solution Services.jpg" alt="live project - horiseon"></a>
+                </button>
+                <h3>Horiseon Code Refractor</h3>
+            </section>
         </section>
       
         
-        <!-- 4 sections/work examples 4x4 display add flexbox-->
+        <!-- 4 sections/work examples 4x4 display flexbox-->
         
-        <section id="work-section">
-        <div class="flex-container">
-            <button><img src="/assets/images/work2.jpg" alt="work2-image"></button>
-            
-            <button><img src="/assets/images/work3.jpg"></button>
-           
-            <button><img src="/assets/images/work4.jpg"></button>
-            
-            <button><img src="/assets/images/work5.jpg"></button>
-            
-          
+       <section class="content">
+        <div class="portfolio-examples">
+            <button>
+            <section class="card">
+              <h1>example 1</h1>
+              <img src="/assets/images/work2.jpg" alt="example-1">
+            </section>
+            </button>
+            <button>
+            <section class="card">
+              <h1>example 2</h1>
+              <img src="/assets/images/work3.jpg" alt="example-2">
+            </section>
+            </button>
+            <button>
+            <section class="card">
+                <h1>example 3</h1>
+                <img src="/assets/images/work4.jpg" alt="example-3">
+            </section>
+            </button>
+            <button>
+            <section class="card">
+                <h1>example 4</h1>
+                <img src="/assets/images/work5.jpg" alt="example-4">
+            </section>
+            </button>
+          </div>
         </section>
-        </div>
-       
-        
 
-        <!-- contact me section -->
-        <section id="contact-me">
-            <h2>Contact Me</h2>
-            <ul>
-                <li>555-555-5555</li>
-                <li><a href="mailto:elachxu@gmail.com">elacheu@gmail.com</a></li>
-                <li><a href="https://github.com/ellacheu">Github</a></li>
-            </ul>
+        <!-- contact me -->
+
+        <aside>
+            <section class="contact-me">
+                <h2>Contact Me</h2>
+            </section>
+        </aside>
+
+        <section class="content">
+            <section id="contact-me">
+                <ul>
+                    <li>555-555-5555</li>
+                    <li><a href="mailto:elachxu@gmail.com">elacheu@gmail.com</a></li>
+                    <li><a href="https://github.com/ellacheu">Github</a></li>
+                </ul>
+            </section>
         </section>
+
+        <!-- footer -->
 
         <footer>
             elayne cheung , 2023
