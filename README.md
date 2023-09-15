@@ -13,6 +13,9 @@ A visual as to what the webpage should look like:
 Header and Portfolio images sourced from: 
 http://unsplash.com
 
+## Code Source
+https://github.com/ellacheu/Portfolio-02
+
 ## License 
 MIT License
 
